@@ -1,5 +1,7 @@
 # Express, Sequelize, Node-cron
 
+?? https://github.com/actionhero/node-resque
+
 ## Setup
 ```
 $ npm i
