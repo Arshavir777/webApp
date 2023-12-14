@@ -1,0 +1,28 @@
+{
+  "name": "webApp",
+  "version": "1.0.0",
+  "description": "Express.js project with ES6, Babel, Sequelize, and Nodemon",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "keywords": [],
+  "author": "Arshavir Gharibyan",
+  "license": "ISC",
+  "dependencies": { 
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^7.0.1",
+    "node-cron": "^3.0.3",
+    "pg": "^8.7.1",
+    "sequelize": "^6.10.3",
+    "umzug": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.14"
+  }
+}
